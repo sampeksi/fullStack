@@ -34,6 +34,7 @@ const Total = (credits) => {
   )
 }
 
+
 const App = () => {
   const course = 'Half Stack application development'
 
