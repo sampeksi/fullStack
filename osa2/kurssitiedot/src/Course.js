@@ -5,7 +5,7 @@ const Header = ({text}) => {
       </h2>
     )
 }
-  
+
 const Content = ({part}) => {
     return (
         <p>
