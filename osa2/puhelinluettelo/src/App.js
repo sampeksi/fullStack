@@ -140,13 +140,22 @@ const App = () => {
         .then((returnData) => {
           setPersons(persons.concat(returnData))
           setMessage(
-            {message: `Note '${person.name}' added`,
+            {message: `Contact '${person.name}' added to the phonebook.`,
             type: "success"
           })
           setTimeout(() => {
             setMessage(null)
           }, 3000)
-        });
+        })
+        .catch((error) => {
+          setMessage({
+            message: `${error.response.data.error}`,
+            type: "error",
+          })
+          setTimeout(() => {
+            setMessage(null)
+          }, 5000)
+        })
     }
     setNewName('')
     setNewNumber('')
