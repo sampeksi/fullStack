@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxvZ2luVGVzdCIsImlkIjoiNjRlMGZiMjEzNjllYmIzM2U2Yzk3MWM5IiwiaWF0IjoxNjkyNDY4OTQ3fQ.HsKn8jB7lhJ-S4soC9wtjLqixlWsK0uvXCXrJU0CdXY
+
+{
+    "title": "middlewareTest",
+    "author": "loginTest",
+    "url": "http://localhost",
+    "likes": 3
+}
