@@ -1,9 +1,9 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxvZ2luVGVzdCIsImlkIjoiNjRlMGZiMjEzNjllYmIzM2U2Yzk3MWM5IiwiaWF0IjoxNjkyNDY4OTQ3fQ.HsKn8jB7lhJ-S4soC9wtjLqixlWsK0uvXCXrJU0CdXY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxvZ2luVGVzdCIsImlkIjoiNjRlMGZiMjEzNjllYmIzM2U2Yzk3MWM5IiwiaWF0IjoxNjkyNjQ0Mjk4fQ.bDwGHibx0NNvkKC5HPX98u7hepwLjZasY3S5T2r4z3M
 
-{
-    "title": "middlewareTest",
+{    
+    "title": "userMiddlewareTest",
     "author": "loginTest",
     "url": "http://localhost",
     "likes": 3
