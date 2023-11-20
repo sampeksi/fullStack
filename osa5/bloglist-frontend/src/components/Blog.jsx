@@ -47,8 +47,10 @@ const Blog = ({ blog, user, handleLikeUpdate, blogDeletion }) => {
         <br/>
         {currentBlog.url}
         <br/>
-        likes: {currentBlog.likes} { }
-        <button onClick={handleAddLike}>like</button>
+        <div className='blog-likes'>
+          likes: {currentBlog.likes} { }
+          <button onClick={handleAddLike}>like</button>
+        </div>
         <br/>
         {currentBlog.user.name}
         {currentBlog.user.username === user.username ?

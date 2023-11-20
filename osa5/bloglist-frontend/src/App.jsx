@@ -84,7 +84,7 @@ const App = () => {
       <Notification message={notification?.message} type={notification?.type}/>
       <div>
         {user.username} logged in
-        <button onClick={handleLogout}>Logout</button>
+        <button id='logoutButton' onClick={handleLogout}>Logout</button>
       </div>
       <br/>
 

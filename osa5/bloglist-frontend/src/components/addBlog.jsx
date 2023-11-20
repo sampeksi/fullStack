@@ -60,6 +60,7 @@ const AddBlog = ({ setBlogs, blogs, setNotification, blogFormRef }) => {
       <div>
         title:
         <input
+          id='blog-title'
           type='text'
           value={title}
           onChange={handleTitleChange}
@@ -68,6 +69,7 @@ const AddBlog = ({ setBlogs, blogs, setNotification, blogFormRef }) => {
       <div>
         author:
         <input
+          id='blog-author'
           type='text'
           value={author}
           onChange={handleAuthorChange}
@@ -76,12 +78,13 @@ const AddBlog = ({ setBlogs, blogs, setNotification, blogFormRef }) => {
       <div>
         url:
         <input
+          id='blog-url'
           type='text'
           value={url}
           onChange={handleUrlChange}
         />
       </div>
-      <button type='submit'>create</button>
+      <button id='create-blog-post' type='submit'>create</button>
     </form>
   )
 }
